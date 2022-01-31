@@ -1,0 +1,245 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin-top: 60px;
+}
+
+header,
+#home,
+footer {
+  background-color: #1f2937;
+}
+
+#features,
+#testimonials,
+#signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 500;
+  margin-bottom: 4.5rem;
+  color: #222;
+}
+
+p {
+  line-height: 1.4;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  outline: none;
+  padding: 0.6rem 2.5rem;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 17px;
+}
+
+button:hover {
+  background: #296bd6;
+  color: #eee;
+  cursor: pointer;
+}
+
+/************************************** Header **************************************/
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 24px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+a:hover {
+  color: #bbb;
+}
+
+/************************************* Home Section *********************************/
+#home {
+  display: flex;
+  height: 85vh;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+#hero-text {
+  max-width: 30%;
+  min-width: 400px;
+}
+
+#hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+
+#hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+#home img {
+  max-width: 36%;
+  min-width: 400px;
+}
+
+/******************************* Features Section ***********************************/
+#features {
+  height: 60vh;
+}
+
+#features-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+}
+
+.feature {
+  max-width: 20%;
+  min-width: 270px;
+}
+
+.feature h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+i {
+  font-size: 4rem;
+  color: steelblue;
+}
+
+/******************************** Testimonials Section ******************************/
+#testimonials {
+  background: #e5e7eb;
+  height: 60vh;
+}
+
+#testimonials-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.testimonial {
+  max-width: 20%;
+  min-width: 250px;
+  color: #444;
+}
+
+.testimonial .text {
+  font-style: italic;
+}
+
+.testimonial .user {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  margin-top: 1rem;
+}
+
+.user img {
+  width: 50px;
+  border-radius: 50%;
+  padding-right: 5px;
+}
+
+.user h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #333;
+}
+
+.user p {
+  margin: 0;
+  font-size: 13px;
+}
+
+/************************************ Sign up Section *******************************/
+#signup {
+  height: 38vh;
+}
+
+#signup .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #3882f6;
+  min-width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 2rem 0;
+  gap: 3rem;
+}
+
+#signup h2 {
+  margin: 1rem 0 0;
+  text-align: left;
+  color: #f9faf8;
+}
+
+#signup p {
+  color: #e5e7eb;
+  margin-top: 0;
+}
+
+#signup button {
+  border: 3px solid #f9faf8;
+}
+
+#signup button:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+}
+
+/************************************* Footer ***************************************/
+footer {
+  display: flex;
+  justify-content: center;
+  color: #e5e7eb;
+  padding: 1rem 0;
+}
